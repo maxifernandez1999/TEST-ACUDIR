@@ -1,0 +1,12 @@
+C:\Users\MaximilianoFernandez\Desktop\TEST-ACUDIR\Acudir.Test.Core\bin\Debug\net6.0\Acudir.Test.Core.deps.json
+C:\Users\MaximilianoFernandez\Desktop\TEST-ACUDIR\Acudir.Test.Core\bin\Debug\net6.0\Acudir.Test.Core.dll
+C:\Users\MaximilianoFernandez\Desktop\TEST-ACUDIR\Acudir.Test.Core\bin\Debug\net6.0\Acudir.Test.Core.pdb
+C:\Users\MaximilianoFernandez\Desktop\TEST-ACUDIR\Acudir.Test.Core\obj\Debug\net6.0\Acudir.Test.Core.csproj.AssemblyReference.cache
+C:\Users\MaximilianoFernandez\Desktop\TEST-ACUDIR\Acudir.Test.Core\obj\Debug\net6.0\Acudir.Test.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MaximilianoFernandez\Desktop\TEST-ACUDIR\Acudir.Test.Core\obj\Debug\net6.0\Acudir.Test.Core.AssemblyInfoInputs.cache
+C:\Users\MaximilianoFernandez\Desktop\TEST-ACUDIR\Acudir.Test.Core\obj\Debug\net6.0\Acudir.Test.Core.AssemblyInfo.cs
+C:\Users\MaximilianoFernandez\Desktop\TEST-ACUDIR\Acudir.Test.Core\obj\Debug\net6.0\Acudir.Test.Core.csproj.CoreCompileInputs.cache
+C:\Users\MaximilianoFernandez\Desktop\TEST-ACUDIR\Acudir.Test.Core\obj\Debug\net6.0\Acudir.Test.Core.dll
+C:\Users\MaximilianoFernandez\Desktop\TEST-ACUDIR\Acudir.Test.Core\obj\Debug\net6.0\refint\Acudir.Test.Core.dll
+C:\Users\MaximilianoFernandez\Desktop\TEST-ACUDIR\Acudir.Test.Core\obj\Debug\net6.0\Acudir.Test.Core.pdb
+C:\Users\MaximilianoFernandez\Desktop\TEST-ACUDIR\Acudir.Test.Core\obj\Debug\net6.0\ref\Acudir.Test.Core.dll
