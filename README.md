@@ -36,7 +36,7 @@ Imagenes de ejemplo:
 
 ![alt text](image-4.png)
 
-Se incluye el json para importar la colección de Postman para hacer pruebas:
+Se incluye el json para importar la colección de pruebas de Postman:
 
 [json-postman](./ACUDIR%20TEST.postman_collection.json)
 
