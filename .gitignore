@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/Acudir.Test.Apis/bin
+/Acudir.Test.Apis/obj
+.env

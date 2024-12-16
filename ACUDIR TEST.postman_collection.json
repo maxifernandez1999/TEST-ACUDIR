@@ -1,0 +1,212 @@
+{
+	"info": {
+		"_postman_id": "839610fa-dcf0-4f6d-8f99-11768ed00463",
+		"name": "ACUDIR TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15237496"
+	},
+	"item": [
+		{
+			"name": "getAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7242/people/getAll",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7242",
+					"path": [
+						"people",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7242/people/getById?id=8",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7242",
+					"path": [
+						"people",
+						"getById"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "8"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7242/people/create?name=Pablo&lastname=Rodriguez&age=22&address=Calle falsa&phone=555-5555",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7242",
+					"path": [
+						"people",
+						"create"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Pablo"
+						},
+						{
+							"key": "lastname",
+							"value": "Rodriguez"
+						},
+						{
+							"key": "age",
+							"value": "22"
+						},
+						{
+							"key": "address",
+							"value": "Calle falsa"
+						},
+						{
+							"key": "phone",
+							"value": "555-5555"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7242/people/update?id=8&name=Pablo Manuel&lastname=Rodriguez&age=22&address=Calle falsa&phone=555-5555",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7242",
+					"path": [
+						"people",
+						"update"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "8"
+						},
+						{
+							"key": "name",
+							"value": "Pablo Manuel"
+						},
+						{
+							"key": "lastname",
+							"value": "Rodriguez"
+						},
+						{
+							"key": "age",
+							"value": "22"
+						},
+						{
+							"key": "address",
+							"value": "Calle falsa"
+						},
+						{
+							"key": "phone",
+							"value": "555-5555"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"Acudir\",\r\n  \"password\": \"AcudirTest\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7242/auth/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7242",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "token",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBY3VkaXIiLCJqdGkiOiI2N2VhODdmMS02MzliLTQ0NDEtYmVkNy1jNDRhNmUwMTZhYTkiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTczNDM2MzgzOCwiaXNzIjoiQWN1ZGlyLlRlc3QuQXBpIiwiYXVkIjoiQWN1ZGlyIn0.Nc1KoTNB8EsYk33v9_dNmSFd_U3Bbk48plkN4YWcjIA",
+			"type": "string"
+		}
+	]
+}
