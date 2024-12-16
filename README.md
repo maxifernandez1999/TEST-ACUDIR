@@ -12,15 +12,16 @@ La API está protegida mediante JWT (JSON Web Tokens), lo que asegura la autenti
 **Credenciales**:
 
 **username**: Acudir
+
 **password**: AcudirTest
 
-1. Obtención del Token JWT
+1. *Obtención del Token JWT*:
 Después de que el usuario envíe sus credenciales al endpoint de autenticación (/auth/login), el servidor devolverá un token JWT válido. Este token es necesario para acceder a los recursos protegidos de la API.
 
-2. Incluir el Token en las Peticiones
+2. *Incluir el Token en las Peticiones*:
 Una vez obtenido el token JWT, debes incluirlo en las cabeceras de cada solicitud HTTP.
 
-3. Formato del Encabezado Authorization
+3. *Formato del Encabezado Authorization*:
 El token JWT se debe enviar con el siguiente formato en la cabecera Authorization:
 
 Authorization: Bearer <tu_token_jwt>
