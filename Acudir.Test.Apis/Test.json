@@ -38,21 +38,5 @@
     "Age": 24,
     "Address": "Calle Falsa 321",
     "Phone": "123123123"
-  },
-  {
-    "Id": 6,
-    "Name": "Luna",
-    "LastName": "Tierras",
-    "Age": -10000,
-    "Address": "La luna 750",
-    "Phone": "-1123123"
-  },
-  {
-    "Id": 7,
-    "Name": "Maria",
-    "LastName": "Carmen",
-    "Age": 1,
-    "Address": "Pluton 512",
-    "Phone": "+123123"
   }
 ]

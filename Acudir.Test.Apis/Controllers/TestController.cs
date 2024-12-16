@@ -151,11 +151,11 @@ namespace Acudir.Test.Apis.Controllers
                 var personDTO = new PersonDTO()
                 {
                     Id = id,
-                    Name = name,
-                    LastName = lastname,
+                    Name = name ?? string.Empty,
+                    LastName = lastname ?? string.Empty,
                     Age = age,
-                    Address = address,
-                    Phone = phone
+                    Address = address ?? string.Empty,
+                    Phone = phone ?? string.Empty
                 };
 
                 var result = await _mediator.Send(new UpdatePersonCommand(personDTO));
