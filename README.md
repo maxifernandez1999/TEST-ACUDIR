@@ -99,4 +99,4 @@ PUT /people/update?id=1&name=Juan&lastname=Perez&age=31
   - **Application**: Capa de lógica (DTOs, Handlers)
   - **Domain**: Entidades e interfaces
   - **Infrastructure**: Capa de acceso a datos (Commands, Queries, Repository, Services)
-- **Acudir.Test.UnitTest**: Contiene los tests de los endpoints
+- **Acudir.Test.UnitTest**: Contiene los tests de los controladores.
