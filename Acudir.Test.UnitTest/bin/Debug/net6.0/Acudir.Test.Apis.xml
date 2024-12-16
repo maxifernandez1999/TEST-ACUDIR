@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Acudir.Test.Apis</name>
+    </assembly>
+    <members>
+        <member name="M:Acudir.Test.Apis.Controllers.TestController.GetAll(Acudir.Test.Core.Domain.Entities.PersonParams)">
+            <summary>
+            get all people
+            </summary>
+        </member>
+        <member name="M:Acudir.Test.Apis.Controllers.TestController.Add(Acudir.Test.Core.Domain.Entities.CreatePersonRequestDto)">
+            <summary>
+            create new person
+            </summary>
+        </member>
+        <member name="M:Acudir.Test.Apis.Controllers.TestController.Update(System.Int32,System.String,System.String,System.Int32,System.String,System.String)">
+            <summary>
+            Update a person
+            </summary>
+        </member>
+    </members>
+</doc>

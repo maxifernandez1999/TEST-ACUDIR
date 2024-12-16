@@ -1,0 +1,58 @@
+[
+  {
+    "Id": 1,
+    "Name": "Ramon",
+    "LastName": "Perez Gonzalez",
+    "Age": 43,
+    "Address": "Av Segurola 1445",
+    "Phone": "4533542"
+  },
+  {
+    "Id": 2,
+    "Name": "Rita",
+    "LastName": "Pavone",
+    "Age": 78,
+    "Address": "Mercedes 4112",
+    "Phone": "45333442"
+  },
+  {
+    "Id": 3,
+    "Name": "Pedro",
+    "LastName": "Franco",
+    "Age": 34,
+    "Address": "Camarones 2343",
+    "Phone": "44565432"
+  },
+  {
+    "Id": 4,
+    "Name": "Ramon",
+    "LastName": "Perez",
+    "Age": 45,
+    "Address": "Av Segurola 1445",
+    "Phone": "4533542"
+  },
+  {
+    "Id": 5,
+    "Name": "Tomas",
+    "LastName": "Gonzalez",
+    "Age": 24,
+    "Address": "Calle Falsa 321",
+    "Phone": "123123123"
+  },
+  {
+    "Id": 6,
+    "Name": "Luna",
+    "LastName": "Tierras",
+    "Age": -10000,
+    "Address": "La luna 750",
+    "Phone": "-1123123"
+  },
+  {
+    "Id": 7,
+    "Name": "Maria",
+    "LastName": "Carmen",
+    "Age": 1,
+    "Address": "Pluton 512",
+    "Phone": "+123123"
+  }
+]
